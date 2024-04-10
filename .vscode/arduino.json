@@ -1,0 +1,6 @@
+{
+    "configuration": "pnum=GENERIC_F405RGTX,upload_method=dfuMethod,xserial=generic,usb=CDCgen,xusb=FS,opt=osstd,dbg=none,rtlib=nano",
+    "board": "STMicroelectronics:stm32:GenF4",
+    "sketch": "STM32F4(MatekF405STD)-blink&SensorJSON.ino",
+    "port": "COM23"
+}
