@@ -58,12 +58,7 @@ void sendjson () {
   JsonObject pres = root.createNestedObject("Pressure");
   JsonObject alt = root.createNestedObject("Approx Altitude");
   JsonObject temp = root.createNestedObject("Temperature");
-  JsonObject pval = pres.createNestedObject("Value");
-  JsonObject aval = alt.createNestedObject("Value");
-  JsonObject tval = temp.createNestedObject("Value");
-  JsonObject punit = pres.createNestedObject("Unit");
-  JsonObject aunit = alt.createNestedObject("Unit");
-  JsonObject tunit = temp.createNestedObject("Unit");
+
   pres["Value"] = bmp.readPressure();
   alt["Value"] = bmp.readAltitude(1008);  
   temp["Value"] = bmp.readTemperature();  
@@ -71,7 +66,8 @@ void sendjson () {
   alt["Unit"] = "M";  
   temp["Unit"] = "°C";  
   // JsonArray dt = pval.createNestedArray("dttt");
-  // dt.add(123)
+  // dt.add(123);
+  
   serializeJson(root, Serial);
   //serializeJsonPretty(root, Serial);
 }
