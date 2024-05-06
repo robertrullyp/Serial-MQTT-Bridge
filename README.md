@@ -12,7 +12,7 @@ Cek appnya disini :
 
 Python Codenya disini :
 
-[Serial-MQTT-Bridge.py](https://github.com/robertrullyp/Serial-MQTT-Bridge/blob/main/Serial-MQTT-Bridge.py)(https://github.com/robertrullyp/Serial-MQTT-Bridge/blob/main/Serial-MQTT-Bridge.py)
+[Serial-MQTT-Bridge.py](https://github.com/robertrullyp/Serial-MQTT-Bridge/blob/main/Serial-MQTT-Bridge.py)
 
 Berhubung board MatekF405-STD adalah board untuk Flight Controller yang sudah ada BMP280 jadi bisa dimanfaatkan, buat contoh aja. Untuk contoh sketch arduino bisa cek Serial-MQTT-Bridge/STM32F4(MatekF405STD)-blink&SensorJSON.ino disesuaikan aja dan install sendiri beberapa library arduino yang dibutuhkan. tekan CTRL+C untuk menghentikan aplikasi dan keluar
     ![Serial-MQTT-Bridge](https://github.com/robertrullyp/Serial-MQTT-Bridge/assets/12167355/dd9ef314-8c7c-47bb-8f70-a47de60e9fc5)
